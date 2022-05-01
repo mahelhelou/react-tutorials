@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+// import ReducerTutorials from './hooks/UseReducer'
+// import Garage from './w3schools/Garage'
+// import TodoApp from './w3schools/TodoApp'
+import Counter from './w3schools/Counter'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	// return <ReducerTutorials />
+	// return <Garage />
+	// return <TodoApp />
+	return <Counter />
 }
 
-export default App;
+export default App
